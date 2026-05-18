@@ -348,6 +348,19 @@
   padding: 15px;
   background: white;
   box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.slide .brand-logo {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.slide:hover .brand-logo {
+  transform: scale(1.2);
+  filter: drop-shadow(0 4px 12px rgba(46, 198, 117, 0.3));
 }
 
 .slider::before,
