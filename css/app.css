@@ -711,6 +711,71 @@ transition: all .9s;
   background-color: white;
 }
 
+/* footer mobile responsive */
+@media (max-width: 767.98px) {
+
+  .footer-20192 .cta {
+    top: -80px;
+    padding: 20px 16px !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    text-align: center;
+  }
+
+  .footer-20192 .cta .ml-auto {
+    margin-left: 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-20192 {
+    padding: 3rem 0 10px !important;
+  }
+
+  .footer-logo {
+    font-size: 28px !important;
+  }
+
+  .row.footer > div {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .row.footer .links {
+    padding-left: 0;
+  }
+
+  .last-footer {
+    font-size: 13px;
+    margin-right: 0.75rem !important;
+    margin-top: 0.75rem;
+  }
+
+  .mt-5.text-center .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .footer-20192 .social {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer-20192 .cta {
+    top: -50px;
+  }
+
+  .footer-20192 .cta h2 {
+    font-size: 1.3rem;
+  }
+
+  .last-footer {
+    font-size: 12px;
+    margin-right: 0.5rem !important;
+  }
+}
 
 /* brands carousel----------- */
 .brands-section {
