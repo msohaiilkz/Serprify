@@ -153,6 +153,18 @@
   margin: 0;
 }
 
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.slide .brand-logo:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 4px 8px rgba(46, 198, 117, 0.3));
+}
+
 .service-heading h2 {
   text-transform: capitalize;
   font-size: 34px;
